@@ -72,7 +72,7 @@ background-image: /images/octocat.png
 ```diff
 First create a new repo at github.com
 - git remote add origin <github-repo-url>
-- git push
+- git push origin <branch>
 Someone else on a different machine
 - git clone <github-repo-url>
 - git push
@@ -96,6 +96,7 @@ background-image: /images/icy.jpg
 
 ```diff
 - git init
+write code, git add, git commit
 - git branch -m gh-pages
 Push to new GitHub repo
 
@@ -130,15 +131,15 @@ background-image: /images/plane.jpg
 # pub-server demo
 
 ```diff
-this requires node.js
 - npm install -g pub-server
-- git clone https://github.com/jldec/pub-sample-deck.git pub;
+- git clone <github>/jldec/pub-sample-deck.git pub;
 - cd pub; pub
 edit markdown, watch http://localhost:3001/
 - pub -O
 - cd out
 - git init
-- git branch -m gh-pages
+- git add, git commit, git branch -m gh-pages
+push to a new repo on GitHub
 ```
 
 ---- ----
