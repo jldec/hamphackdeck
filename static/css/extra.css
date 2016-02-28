@@ -65,4 +65,10 @@
 .slide a {
   color: #55c;
   font-size: 0.75em;
+  background:rgba(255,255,255,0.2);
+  padding:4px;
+}
+
+.slide a:hover {
+  text-decoration: underline;
 }
