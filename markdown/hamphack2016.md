@@ -37,7 +37,7 @@ won't be big and professional
  and their relationships.
 
 ![](/images/gitlogo.svg "width=400")
-![](/images/linus2.jpeg "align=right width=300")
+![](/images/linus2.jpeg "align=right width=297")
 - Distributed Version Control
 - Linus Torvalds
 - April-December 2005
